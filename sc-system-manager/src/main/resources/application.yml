@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: sc-system-manager
+
+server:
+  port: 9000 # 分别为 9000、9001、9002
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/ # 指定 Eureka 注册中心的地址
+
+# 因为熔断只是作用在服务消费端，所以只需在消费端配置
+feign:
+  hystrix:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

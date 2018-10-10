@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sc-config-client/sc-config-client.iml" filepath="$PROJECT_DIR$/sc-config-client/sc-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-config-git/sc-config-git.iml" filepath="$PROJECT_DIR$/sc-config-git/sc-config-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-eureka-server/sc-eureka-server.iml" filepath="$PROJECT_DIR$/sc-eureka-server/sc-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-hystrix-dashboard/sc-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/sc-hystrix-dashboard/sc-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-service-sys/sc-service-sys.iml" filepath="$PROJECT_DIR$/sc-service-sys/sc-service-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-system-manager/sc-system-manager.iml" filepath="$PROJECT_DIR$/sc-system-manager/sc-system-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-turbine-rabbitmq/sc-turbine-rabbitmq.iml" filepath="$PROJECT_DIR$/sc-turbine-rabbitmq/sc-turbine-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scscp.iml" filepath="$PROJECT_DIR$/scscp.iml" />
+    </modules>
+  </component>
+</project>

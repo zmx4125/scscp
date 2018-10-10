@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sc-config-client" />
+        <module name="sc-config-git" />
+        <module name="sc-eureka-server" />
+        <module name="sc-hystrix-dashboard" />
+        <module name="sc-service-sys" />
+        <module name="sc-system-manager" />
+        <module name="sc-turbine-rabbitmq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sc-config-client" target="1.8" />
+      <module name="sc-config-git" target="1.8" />
+      <module name="sc-eureka-server" target="1.8" />
+      <module name="sc-hystrix-dashboard" target="1.8" />
+      <module name="sc-manager-web" target="1.8" />
+      <module name="sc-service-sys" target="1.8" />
+      <module name="sc-system-manager" target="1.8" />
+      <module name="sc-turbine" target="1.8" />
+      <module name="sc-turbine-rabbitmq" target="1.8" />
+      <module name="scscp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
